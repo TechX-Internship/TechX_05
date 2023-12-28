@@ -1,0 +1,46 @@
+.bg {
+    background-image: url("/public/images/pngwing1.png");
+    background-size: cover;
+    /* height: 100%; */
+    position: relative;
+    z-index: 5;
+}
+
+.bgclr {
+    background: linear-gradient(180deg, rgba(255, 242, 235, 0.80) 61.44%, rgba(217, 217, 217, 0.00) 102.3%);
+    /* height: 1500px; */
+    position: relative;
+    z-index: 0;
+}
+
+.cirone {
+    width: 549px;
+    height: 531px;
+    flex-shrink: 0;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.txtheading {
+    color: #3B110B;
+    font-family: Playfair Display;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.92px;
+    text-transform: uppercase;
+    width: 412px;
+
+}
+
+.txtpara {
+    color: #7F7F7F;
+    font-family: Playfair Display;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    text-transform: uppercase;
+    width: 554px;
+}
