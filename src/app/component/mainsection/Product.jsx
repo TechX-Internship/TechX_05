@@ -1,11 +1,15 @@
 import React from 'react'
 import hero from './product.module.css'
+// import Customised from './component/owner/Customised.jsx'
+import Customised from './Customised.jsx'
+import Footer from './Footer.jsx'
+
 
 const Product = () => {
     return (
         <>
             {/* <div className={`${hero.bgclr}`}> */}
-            <div className={`${hero.bgclr}`} style={{ height: "4800px" }}>
+            <div className={`${hero.bgclr}`} style={{ height: "6500px" }}>
                 <section className='py-5'>
                     <div className="container " style={{ height: "1600px" }}>
                         <div className="d-flex">
@@ -118,7 +122,7 @@ const Product = () => {
                     </div>
                 </section>
                 <section className="gallery mt-5">
-                    <div className="container">
+                    <div className="container" style={{ height: "1650px" }}>
                         <div className="d-flex">
                             <div className="col-6">
                                 <div className={`${hero.galcont} position-relative`}>
@@ -141,7 +145,6 @@ const Product = () => {
                                     </div>
                                 </div>
                             </div>
-
                             <div className="col-6">
                                 <div className={`${hero.shop} position-relative`}>
                                     <div className={`${hero.shop1}`}>
@@ -164,6 +167,8 @@ const Product = () => {
                         </div>
                     </div>
                 </section>
+                <Customised />
+                <Footer />
             </div>
             {/* </div> */}
         </>
