@@ -25,3 +25,9 @@ body {
     )
     rgb(var(--background-start-rgb));
 } */
+
+body {
+  font-family: 'Playfair Display', serif;
+}
+
+
