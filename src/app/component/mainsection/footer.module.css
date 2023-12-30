@@ -48,6 +48,7 @@
     font-weight: 400;
     line-height: normal;
 }
+
 .rgt {
     position: absolute;
     color: #fff;
@@ -60,6 +61,17 @@
     font-weight: 400;
     line-height: normal;
 }
+
+.lin a {
+    color: #333;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+}
+
 
 /* .footleft {
     background-color: #3B110B;

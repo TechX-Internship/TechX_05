@@ -3,15 +3,16 @@ import hero from './product.module.css'
 // import Customised from './component/owner/Customised.jsx'
 import Customised from './Customised.jsx'
 import Footer from './Footer.jsx'
-
+import Header from '../header/Header'
 
 const Product = () => {
     return (
         <>
+        <Header />
             {/* <div className={`${hero.bgclr}`}> */}
             <div className={`${hero.bgclr}`} style={{ height: "6500px" }}>
                 <section className='py-5'>
-                    <div className="container " style={{ height: "1600px" }}>
+                    <div className="container" style={{ height: "1600px" }}>
                         <div className="d-flex">
                             <div className="col-6 ">
                                 <div className={`${hero.newjewel} position-relative`}>
@@ -168,7 +169,7 @@ const Product = () => {
                     </div>
                 </section>
                 <Customised />
-                <Footer />
+                {/* <Footer /> */}
             </div>
             {/* </div> */}
         </>

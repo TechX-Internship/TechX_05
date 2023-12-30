@@ -1,5 +1,6 @@
 import React from 'react'
 import footer from './footer.module.css'
+import Link from 'next/link'
 
 const Footer = () => {
     return (
@@ -9,11 +10,11 @@ const Footer = () => {
                     <img src="./images/logofooter.png" alt="" />
                 </div>
                 <ul className='d-flex align-items-center justify-content-center my-3'>
-                    <li>Home</li>
-                    <li>Gallary</li>
-                    <li>Reviews</li>
-                    <li>Contact</li>
-                    <li>About</li>
+                    <li className={footer.lin}><Link href={'/'}> Home</Link></li>
+                    <li className={footer.lin}><Link href={'/gallery'}> Gallery</Link></li>
+                    <li className={footer.lin}><Link href={'/reviews'}>Reviews</Link></li>
+                    <li className={footer.lin}><Link href={'/contact'}>Contact</Link></li>
+                    <li className={footer.lin}><Link href={'/about'}> About</Link></li>
                 </ul>
                 <p className='text-center m-auto pb-5'>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel molestie est. Proin pulvinar nulla a nunc aliquam dignissim. Vivamus aliquet,

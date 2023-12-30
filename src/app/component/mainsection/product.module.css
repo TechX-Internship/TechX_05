@@ -27,7 +27,7 @@
 
 .txtheading {
     color: #3B110B;
-    font-family: Playfair Display;
+    font-family: 'Playfair Display', serif;
     font-size: 64px;
     font-style: normal;
     font-weight: 700;
@@ -40,7 +40,7 @@
 
 .txtpara {
     color: #7F7F7F;
-    font-family: Playfair Display;
+    font-family: 'Playfair Display', serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
